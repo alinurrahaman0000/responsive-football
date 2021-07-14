@@ -1,0 +1,288 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+</style>
+/* font-family: 'Poppins', sans-serif; */
+body {
+  width: 100%;
+  height: auto;
+}
+
+/* Star Section-1 */
+
+/* Nabvar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #2d25a0;
+  padding: 16px;
+
+}
+.navber a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 11px;
+  font-size:20px;
+}
+.navber a:hover{
+  color: aqua;
+}
+.login:hover{
+  background-color:aqua ;
+  color: #2d25a0;
+}
+.login{
+  background-color: tomato;
+  color: aliceblue;
+  padding: 10px;
+  margin-top: 0em;
+  border-radius: 5px;
+}
+.fas{
+  margin-right: 7px;
+}
+
+/* Nabvar */
+
+.frist-body {
+  display: flex;
+
+  background-color: #2d25a0;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  padding: 25px;
+}
+.frist-title {
+  width: 40%;
+  height: 230px;
+  display: flex;
+  margin-right: 70px;
+}
+.title {
+  margin-left: 8px;
+  margin-top: 50px;
+}
+.title h1 {
+  color: white;
+  font-size: 55px;
+}
+.banner {
+  width: 40%;
+  margin-bottom: 86px;
+  margin-left: 66px;
+}
+.banner img {
+  width: 450px;
+  height: auto;
+}
+
+.button a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: violet;
+  border-radius: 5px;
+  padding: 6px;
+}
+.button a:hover{
+  background-color: aqua;
+  color: #2d25a0;
+  margin: 0 auto;;
+}
+
+/* End Section-1 */
+
+/* Star Section-2 */
+.section-2 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-row-gap: 27px;
+grid-column-gap: 30px;
+  margin: 0 auto;
+  height: auto;
+  width: 90%;
+  padding: 16px;
+}
+.albam {
+  width: 330px;
+  height: 474px;
+  box-shadow:0px 0px 40px 0px #00000026;
+  padding: 15px;
+  
+}
+.albam img {
+  width: 330px;
+  height: auto;
+  border-radius: 5px;
+}
+.albam p{
+  color: #B3B3B3;
+  text-align: justify;
+}
+.albam:hover{
+  background-color: rgb(80, 255, 226);
+  color: black;
+}
+
+/* End Section-2 */
+
+/* Start Section-3 */
+
+.third-body {
+  display: flex;
+
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  padding: 25px;
+}
+.frist-title {
+  width: 40%;
+  height: 230px;
+  display: flex;
+  margin-right: 70px;
+}
+.title {
+  margin-left: 8px;
+  margin-top: 15px;
+}
+.title h1 {
+  font-size: 50px;
+}
+#black{
+  color:black;
+
+}
+#black p{
+  color: #B3B3B3;
+}
+.banner {
+  width: 40%;
+  margin-bottom: 86px;
+  margin-left: 66px;
+}
+.banner img {
+  width: 450px;
+  height: auto;
+  margin-left: 83px;
+}
+
+.button a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: violet;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: large;
+}
+.third-body{
+  width: 90%;
+  padding: 10px;
+  margin-top: 140px;
+}
+
+/* End Section-3 */
+
+/* Address Start */
+  display: flex;
+      justify-content: center;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 15px;
+      }
+      form {
+      border: 5px solid #f1f1f1;
+      }
+      input[type=text], input[type=password] {
+      width: 100%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      }
+        .adders{
+          width: 100%;
+          height: 0,auto;
+          justify-content: center;
+        }
+        .full-adderss{
+          width: 30%;
+          margin: 0 auto;
+        }
+      .adders h1{
+        color: darkcyan;
+      }
+      button {
+      background-color: #8ebf42;
+      color: white;
+      padding: 14px 0;
+      margin: 10px 0;
+      border: none;
+      cursor: grabbing;
+      width: 100%;
+      }
+      h1 {
+      text-align:center;
+      fone-size:18;
+      }
+      button:hover {
+      opacity: 0.8;
+      }
+      .formcontainer {
+      text-align: left;
+      margin: 24px 50px 12px;
+      }
+      .container {
+      padding: 16px 0;
+      text-align:left;
+      }
+      span.psw {
+      float: right;
+      padding-top: 0;
+      padding-right: 15px;
+      }
+      /* Change styles for span on extra small screens */
+      /* @media screen and (max-width: 300px) {
+      span.psw {
+      display: block;
+      float: none; */
+      
+
+/* Address End */
+
+/* Star footer */
+.footer-body{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+.logu img{
+  
+position: static;
+width: 483.87px;
+height: 110px;
+left: 0px;
+top: 0px;
+}
+.icon{
+  display: flex;
+ justify-content: center;}
+ .icon i{
+  margin-right: 14px;
+
+ }
+ .fab:hover{
+  
+   font-size: 23px;
+
+
+ }
+ 
+
+/* End footer */
+
+/* responsive Web site */
+
+  
